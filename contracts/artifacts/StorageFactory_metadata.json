@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSolidity101FC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSolidity101FCContracts",
+				"outputs": [
+					{
+						"internalType": "contract Solidity101FC",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_solidity101FCIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_solidity101FCIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSolidity101FCNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project Cyfrin/contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project Cyfrin/contracts/Solidity101FC.sol": {
+			"keccak256": "0x46de2d1136e28add3d8e5085ee319517903cfecc037cb01492125081a0ee69c6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd8d511a7f7df988bc014563b6b1f9113a266fad52658c0d4233996e6c158c8d",
+				"dweb:/ipfs/QmTjmPt4C91mvfqDa54e5Zaig8RkVrpQ3CxVTsGq5itwMt"
+			]
+		},
+		"Project Cyfrin/contracts/StorageFactory.sol": {
+			"keccak256": "0xd301c5f05115b8c4d9eb76de05cb3b4f3472a6b048d8ef60ce47ece9edf44098",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb36f1fe1d49f01923ad7423559c31f5446497481e9f78debc37f2ada9bc9270",
+				"dweb:/ipfs/Qmcsn3qCK8R1ViisrFVbA14BjiPYdejmt1cpv2npbYqJt1"
+			]
+		}
+	},
+	"version": 1
+}

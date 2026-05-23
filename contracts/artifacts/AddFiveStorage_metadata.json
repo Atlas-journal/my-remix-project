@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favouriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favouriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project Cyfrin/contracts/AddFiveStorage.sol": "AddFiveStorage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project Cyfrin/contracts/AddFiveStorage.sol": {
+			"keccak256": "0x08bccd4e8e4c2ca6dd45a9294342907d1753b1772617a6dedfc8c7ac48bfc2d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51230fcece907cf4b187063d32fe3817b8604fc3f644662849700e1ca5637776",
+				"dweb:/ipfs/Qmch7WFs8z9RAt7xpNw7My6MRWgjAyeSp47NAEpB3AvBFN"
+			]
+		},
+		"Project Cyfrin/contracts/Solidity101FC.sol": {
+			"keccak256": "0x26e094491a3c82c387ee4e469bb06e07f5a759bda568886d87879e6557210303",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48fe7426aefd8df9eca0e29d78f352bd09c4827e03652c8cef8ca3bb124f8b6c",
+				"dweb:/ipfs/QmcL7L5mDUJh2CzWvXDEiyTK4rFQTF16P5q5SjUG2GVu2p"
+			]
+		}
+	},
+	"version": 1
+}

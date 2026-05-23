@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_matricNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fullName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_department",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_level",
+						"type": "uint256"
+					}
+				],
+				"name": "addNewStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayOfStudents",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "matricNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "fullName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "department",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "level",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "fullNameToMatricNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project Cyfrin/contracts/matricNo.sol": "matricNo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project Cyfrin/contracts/matricNo.sol": {
+			"keccak256": "0x98da035e811d9d6964b26c6bf004c2fb51588aca3cecf86d342b9d9cb367c022",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d487f35516b1a2b7a03ee9b6b04030214a74d66610d6a3002cb49e41c3016193",
+				"dweb:/ipfs/QmVUpzU5v6v99BRutH6X3MUAMc1mFCsu9N57AAtEPuVQ82"
+			]
+		}
+	},
+	"version": 1
+}
